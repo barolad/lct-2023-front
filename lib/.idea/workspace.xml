@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdf68932-d730-4cbe-8759-d3b25d2810b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../app/(public)/@modal/(.)upload/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/(public)/@modal/default.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/(public)/comobox-test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/(public)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/(public)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/(public)/pool/(.)upload/components/drop-zone.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/(public)/pool/(.)upload/components/upload-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/(public)/pool/(.)upload/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/(public)/pool/(.)upload/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/(public)/upload/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/auth/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/auth-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/dashboard-table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/ui/form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/ui/toaster.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/upload-card-comobox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/upload-card.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/upload-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/user-account-nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiConnection.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/(admin)/admin/addmkb10/components/addMKBInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../app/(admin)/admin/addstandart/components/add-standart-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/(admin)/admin/addmkb10/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/(admin)/admin/addstandart/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../app/(admin)/admin/addstandart/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/(admin)/admin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../app/(admin)/admin/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/admin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../config/admin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/../styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2QAG6FA52rGGF88zW6zQULHSJj6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdf68932-d730-4cbe-8759-d3b25d2810b8" name="Changes" comment="" />
+      <created>1684788794501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684788794501</updated>
+      <workItem from="1684788795802" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
