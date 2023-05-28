@@ -10,7 +10,7 @@ const nextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://89.232.161.201:8080/api/:path*",
+        destination: "http://46.19.66.44:8080/api/:path*",
       },
     ]
   },
@@ -24,7 +24,7 @@ const nextConfig = {
           { key: "Access-Control-Allow-Credentials", value: "true" },
           {
             key: "Access-Control-Allow-Origin",
-            value: "http://89.232.161.201:8080",
+            value: "http://46.19.66.44:8080",
           },
           {
             key: "Access-Control-Allow-Methods",
