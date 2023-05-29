@@ -1,8 +1,5 @@
 import { Api } from "@/lib/Api"
 
 export const api = new Api({
-  baseURL: "https://unitrip.ru/api",
-  httpsAgent: {
-    rejectUnauthorized: false,
-  },
+  baseURL: "http://46.19.66.44:8080/api",
 })
