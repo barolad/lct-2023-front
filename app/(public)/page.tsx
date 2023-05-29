@@ -5,6 +5,8 @@ import { buttonVariants } from "@/components/ui/button"
 import { EmptyPlaceholder } from "@/components/empty-placeholder"
 import { EmptyHeader } from "@/components/header-with-description"
 
+export const revalidate = 10;
+
 export default async function IndexPage() {
   const uploads = (await api.import.lastRequestsList()).data
   return (
