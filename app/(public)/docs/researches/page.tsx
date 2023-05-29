@@ -4,6 +4,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { EmptyHeader } from "@/components/header-with-description"
 import { ResearchCommand } from "@/app/(public)/docs/components/research-command"
 
+export const revalidate = 300;
+
 export default async function DocsResearchesPage() {
   const laboratoryResearches: MskAnalysisTypeGet[] = (
     await api.analysis.getAllAnalysesByType({
