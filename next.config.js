@@ -10,7 +10,7 @@ const nextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://46.19.66.44:8080/api/:path*",
+        destination: "https://unitrip.ru/api/:path*",
       },
     ]
   },
@@ -24,7 +24,7 @@ const nextConfig = {
           { key: "Access-Control-Allow-Credentials", value: "true" },
           {
             key: "Access-Control-Allow-Origin",
-            value: "http://46.19.66.44:8080",
+            value: "https://unitrip.ru",
           },
           {
             key: "Access-Control-Allow-Methods",
