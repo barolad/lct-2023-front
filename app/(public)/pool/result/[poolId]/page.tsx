@@ -40,6 +40,9 @@ export default async function ({ params }: ResultUploadPageProps) {
       accuracy: item.accuracy,
       recommendations: item.recommendationsGrouped,
     }))
+  const dataWithoutStandart = data?.outputDatas?.filter((item) => {
+    return item.standartExists !== true
+  })
 
   return (
     <div>
@@ -82,6 +85,23 @@ export default async function ({ params }: ResultUploadPageProps) {
         </Accordion>
 
         <ResultUploadTable data={tableData} columns={columns} />
+        
+        <Accordion type="single" collapsible className="w-full">
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Назначения без стандарта</AccordionTrigger>
+            <AccordionContent>
+              <div className="divide-y divide-border rounded-md border">
+                {dataWithoutStandart.map((item) => (
+                  <div className="flex items-center justify-between p-4  hover:bg-muted">
+                    <div className="hover:underline">
+                      {item.mkbCode} {item.diagnosis}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
       </div>
     </div>
   )
