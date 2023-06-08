@@ -4,7 +4,7 @@ import { formatDateLongMonth, generatePdf, getAge } from "@/lib/utils"
 import {
   AlertDialog,
   AlertDialogContent,
-  AlertDialogFooter,
+  AlertDialogDescription,
   AlertDialogHeader,
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog"
@@ -32,6 +32,9 @@ export default function ActiveRowAlert() {
         <AlertDialogContent>
           <AlertDialogHeader>
             <AlertDialogTitle>Результат анализа назначения</AlertDialogTitle>
+            <AlertDialogDescription>
+              {activeRow?.diagnosis}
+            </AlertDialogDescription>
           </AlertDialogHeader>
           <div className="space-y-6">
             <div className="grid grid-cols-2 gap-6">
