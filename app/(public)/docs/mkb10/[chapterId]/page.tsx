@@ -23,17 +23,22 @@ export default async function MKB10ByChapterDocsPage({
       />
       <div className="divide-y divide-border rounded-md border">
         {data.mkb10s?.map((mkb) => (
-          <div className="flex items-center justify-between p-4  hover:bg-muted">
+          <Link
+            href={`docs/mkb10/${params.chapterId}/${mkb.id}`}
+            className="flex items-center justify-between p-4  hover:bg-muted"
+          >
             <div className="grid gap-1">
               <div className="font-semibold hover:underline">{mkb.name}</div>
               <div>
                 <p className="text-sm text-muted-foreground">
-                  {`${mkb.litera}${mkb.number}`}
+                  {`${mkb.litera}${
+                    mkb.number! >= 10 ? mkb.number : `0${mkb.number}`
+                  }`}
                   {mkb.subnumber !== null ? `.${mkb.subnumber}` : ""}
                 </p>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
